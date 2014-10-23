@@ -27,5 +27,7 @@ http {
     uwsgi_temp_path       <%= ENV['TMP'] %>/nginx/uwsgi;
     scgi_temp_path        <%= ENV['TMP'] %>/nginx/scgi;
 
+    server_tokens off;
+
     include <%= ENV['OPENSHIFT_REPO_DIR'] %>/config/nginx.d/*.conf;
 }
