@@ -1,6 +1,6 @@
 # OpenShift Nginx PHP-FPM Cartridge
 
-Nginx updated to 1.6.0 with PHP 5.3/5.4/5.5.
+Nginx updated to 1.6.2 with PHP 5.3/5.4/5.5.
 
 Forked from [getupcloud/openshift-nginx-php-fpm](https://github.com/getupcloud/openshift-nginx-php-fpm).
 
